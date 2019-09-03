@@ -1,0 +1,88 @@
+---
+title: "Mini_SDS-PAGE"
+author: Eszter Csibra
+output: 
+  html_document:
+    theme: paper
+---
+
+---
+
+### Small protein gels (Mini-Gels) for SDS-PAGE
+2012-present
+
+---
+
+##### Components required:
+
+* Biorad mini gel system - plates/combs/assembly structures/tanks
+* Gel components (and their locations)
+  * dH2O, 1.5M Tris pH 8.8 (RT), 1M Tris pH 6.8 (RT), 40% **37.5:1** acrylamide/bis (4oC)
+  * __!! acrylamide is a neurotoxin. see Safety Note, below !!__
+  * 10% SDS (RT), 10% APS (aliquots at -20oC), TEMED (brown bottle, 4oC)
+  * water-saturated butanol
+* SDS-PAGE Running buffer
+* Protein ladder
+* Your samples, usually denatured in Laemmli's buffer
+
+---
+
+##### Protocol:
+
+1.	Assemble plates
+    a.	Wash plates – fairy; rinse – water, 100% EtOH; dry
+    b.	Assemble on long assembly apparatus: make sure chipped sides are on top to prevent leaking
+    c.	Check assembled plates don’t leak: squirt some dH2O in between plates, wait a bit, tap a bit, pour out.
+
+2.	Make gels
+    a.	According to the following recipes, mix the following in a falcon tube and invert tube gently to mix:
+    
+    ```{r recipes, echo=FALSE, out.width = '70%', eval=FALSE}
+knitr::include_graphics("images/SDSPAGE.png")
+```
+ 
+    b.	**Resolving gel**:
+        i.	pour Resolving Mix with 5 ml pipettor. _note: you want to fill it up to the bottom of the level of the green plastic section that you will see behind your glass plates. ie. don't overfill; leave space for Stacking Gel._
+        ii. overlay some **water-saturated butanol (~1ml)** to allow the gel to set in the absence of air
+        iii. leave ~30min to set. _note: it is good practice to keep what is left of the gel mixture in your falcon tube around, seal the lid and use it as a way to ascertain when your gel should be set. your gel should set faster than what's in the falcon as your gel is sealed with butanol._
+    c.	**Stacking gel**:
+        i. **it saves time to prepare the stacking gel during the setting time of the resolving gel, but don't add TEMED until you are ready to pour the stacking gel.**
+        i.	remove butanol, rinse with dH2O a few times, dry.
+        ii. **add TEMED to Stacking Mix**
+        ii.	pour Stacking Mix till top, add comb..
+        iii.	takes 10min, leave for 15-30 min to set
+
+3.	**“0.5X” Running buffer**
+    a.	100 ml		10X Tris-Glycine (shelf with acrylamide)
+    b.	10 ml		SDS
+    c.	→ 1L with dH2O
+    d.	Fill up middle of tank (between two gels), and the bottom of the outer part (such that there’s enough)
+
+4.	**Load and Run Gel**
+    a.	[There's a yellow coloured gel loading 'pipette guide' that can be used here]
+    b.	Load 7 µl ‘NEB Broad-Range Pre-Stained Markers’
+        i.	**10-well combs take a max of 30 µl**
+    c.	Run at **15 mA for one, 30 mA for two; takes about 45min-1h** _(check on it)_
+
+---
+
+##### Safety notes:
+
+* Acrylamide is a neurotoxin in its un-polymerised form. Once it has polymerised and set, it is safe. Avoid using solid, powdered acrylamide at all costs. Liquid premix of acrylamide/bisacrylamide is the best thing to use. (**Note ratio of the two, this determines the resolution of your gel.**) There is no need to use a fume hood. However, just be careful. Always wear gloves and a labcoat when making and handling gels, work carefully (do not rush), replace lids on stocks when you are finished with them to avoid spills, and label all tubes containing acrylamide (eg one you use for making gel mixture). It is often advisable to wear safety specs when inserting the comb into your gel, as the mixture will sometimes splash towards your eyes. If a gel leaks, as it sometimes can, carefully wipe up the spilled gel mixture with tissues (wear gloves!), wash bench or affected surfaces with excess water, discard gloves, and disassemble/reassemble gel as required.
+
+---
+
+##### Notes
+
+* De-gassing. Acrylamide polymerisation is inhibited by air, so it is customary to be careful to avoid agitation. For larger gels, it is usual to "degas" the solutions. For these, just don't shake, it polymerises quickly enough.
+* Ratios of acrylamide/bisacrylamide. Typically acrylamide/bisacrylamide mixtures are bought in at 40% (v/v) concentration, and a specific (but varying) ratio of acrylamide:bisacrylamide. Bis is the crosslinker, the more there is, the smaller the pores in the gel will be and the better you can resolve small differences. As we tend to run shorter molecules of DNA (**10-50 nt ~ 3-15 kDa**) and longer molecules of protein (**100-500 aa ~ 10-60 kDa**), our DNA gels tend to use 19:1 acryl/bis, and our protein ones tend to use 37.5:1.
+
+---
+
+##### Other resources
+
+For **Semi-Dry Transfer**, see **Western Blotting** protocol.
+
+For **Nucleic Acid ureaPAGE or ndPAGE** minigels, see **Nucleic Acid ureaPAGE or ndPAGE**.
+
+---
