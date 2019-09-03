@@ -1,0 +1,25 @@
+# system files
+.DS_Store
+.Rhistory
+
+# images
+*.png
+*.svg
+*.pdf
+*.tiff
+
+# folders with data
+DATA/
+DATA*/
+
+# folders with plots
+FCS/
+FCS_trimmed/
+PLOTS/
+PLOTS*/
+
+# knitted R markdown files
+*.html
+
+# folders with archived or test files
+z_*/
