@@ -63,7 +63,7 @@ Make up the recipe as a master mix for several samples, adding the water first a
 
 Thermocycler notes: from experience, holding at 10 oC is better than 4 oC as some instruments can be badly damaged by holding at 4 oC, being opened and left on (as can happen). The water build up can damage the instrument. It shouldn't, but it does, so hold at 10 oC. DNA is pretty stable, and the enzyme will not be active.
 
--
+--
 
 **DpnI**
 
@@ -79,13 +79,13 @@ More on DpnI: https://international.neb.com/faqs/0001/01/01/what-s-the-differenc
 
 More on methylation: https://international.neb.com/tools-and-resources/selection-charts/dam-dcm-and-cpg-methylation
 
--
+--
 
 **PCR purification**
 
 Follow instructions in manual, elute in 30 ul elution buffer (Tris/EDTA).
 
--
+--
 
 **Type IIS enzyme digestion**
 
@@ -109,7 +109,7 @@ Reaction conditions:
 * 65 oC 20 min to inactivate enzyme
 * hold at 10 oC
 
--
+--
 
 **Ligation**
 
@@ -138,7 +138,7 @@ Type IIS reactions typically work first time. If not, one can set up a range of 
 - L3. V:I ratio = 1:10
 - C. (control). Leave out insert DNA. 
 
--
+--
 
 **Colony PCR**
 
