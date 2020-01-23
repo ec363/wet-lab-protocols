@@ -54,17 +54,68 @@ Ligation
 
 ##### DETAILS OF CERTAIN STEPS
 
+**PCR**
+
+Q5 reaction. See https://ec363.shinyapps.io/pcr_calc/ for recipe and cycling conditions.
+
+Set up as many reactions as template/primer combinations, +1 for a negative control (no template). If you see a product here, this indicates contamination in one of your reagents. It's good practice to have a negative control for each primer set, as this controls for contamination in each primer set.
+
+Make up the recipe as a master mix for several samples, adding the water first and enzyme last. Leave out the template. Aliquot 24 ul per 200 ul PCR tube, and add 1 ul template where relevant. Vortex, spin down, transfer to thermocycler.
+
+Thermocycler notes: from experience, holding at 10 oC is better than 4 oC as some instruments can be badly damaged by holding at 4 oC, being opened and left on (as can happen). The water build up can damage the instrument. It shouldn't, but it does, so hold at 10 oC. DNA is pretty stable, and the enzyme will not be active.
+
+**DpnI**
+
+Protocol:
+
+To the 20  ul remaining, add 1 ul DpnI, vortex to mix, spin reaction down in microfuge. Protocol in thermocycler can be copied from mine: 37 oC 45 min for the DpnI reaction, 80 oC 20 min to inactivate the enzyme, hold at 10 oC.
+
+Information:
+
+DpnI cuts at the very common site GA^TC. The utility of this enzyme results from its selectivity towards Dam methylated sites - a modification on plasmids isolated from bacteria with active Dam methylation systems but not in vitro (PCR) products. While it cuts both methylated and unmethylated DNA, it cuts methylated DNA 60X faster, so can be used to selectively get rid of plasmid DNA.
+
+More on DpnI: https://international.neb.com/faqs/0001/01/01/what-s-the-difference-between-dpni-dpnii-mboi-and-sau3ai
+
+More on methylation: https://international.neb.com/tools-and-resources/selection-charts/dam-dcm-and-cpg-methylation
+
+**PCR purification**
+
+Follow instructions in manual, elute in 30 ul elution buffer (Tris/EDTA).
+
+**Type IIS enzyme digestion**
+
+Protocol for AarI:
+
+Reaction mixture:
+
+* 30 ul DNA
+* 5 ul 10X buffer
+* 1 ul oligo
+* 3 ul AarI
+* 11 ul H2O
+
+= 50 ul
+
+Add water first, enzyme last, vortex to mix, spin down reaction.
+
+Reaction conditions:
+
+* 37 oC 3 h
+* 65 oC 20 min to inactivate enzyme
+* hold at 10 oC
+
 **Ligation**
 
 Basic reaction:
-_ µl Vector DNA *
-_ µl Insert DNA *
-1 µl 10X T4 ligase buffer
-to 10 µl w mQ H2O.
-Incubate: 10’ at RT. [ie. can move onto transformation very quickly.]
-Alternative is 16oC overnight.
 
-*It is usually recommended that you add about 1 vector:3 insert, in terms of molar ratio.
+* _ µl Vector DNA [*]
+* _ µl Insert DNA [*]
+* 1 µl 10X T4 ligase buffer
+* to 10 µl w mQ H2O.
+* Incubate: 10’ at RT. [ie. can move onto transformation very quickly.]
+* Alternative is 16oC overnight.
+
+[*]It is usually recommended that you add about 1 vector:3 insert, in terms of molar ratio.
 And don’t add more than about 100ng DNA per 10 µl reaction to reduce non-specific ligation or self-ligation.
 
 Typical set up for Type IIS reactions:
@@ -73,6 +124,7 @@ Typical set up for Type IIS reactions:
 - **Reaction 2 is your control, C.** Leave out insert DNA. This controls for vector religation and/or colonies from any remaining input vector DNA. (Ideally you should get zero colonies.)
 
 Thorough version:
+
 Type IIS reactions typically work first time. If not, one can set up a range of V:I ratios:
 
 - Ligation#1 (L1). V:I ratio = 1:1
