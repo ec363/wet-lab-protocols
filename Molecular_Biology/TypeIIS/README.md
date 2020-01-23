@@ -33,7 +33,7 @@ Insert
 - [] Digest w [**Type IIs enzyme**]
 - [] PCR purify
 
-Ligation
+Assembly
 
 - [] Ligate
 - [] Transform into 10beta cells.
@@ -42,9 +42,12 @@ Ligation
 - [] Check colonies if not done A above. B. Digest w [**enzyme**] that will give you unique restriction pattern for cloned plasmid (that’s different from input vector). Chosen enzyme —> [**Expected results.**]
 - [] Sequence w [**sequencing primers**] over any ligation sites.
 
-- [] Analyse sequences - sort minipreps (keep/discard).
-- [] Make sure plasmid is in correct strain for expression (eg. transform into T7 if IPTG induced construct).
+Housekeeping
+
+- [] Analyse sequences - sort minipreps (which to keep/discard).
+- [] Make sure plasmid is in correct strain for expression (eg. transform into B strains if construct requires T7 polymerase for transcription).
 - [] Make glycerol stocks.
+- [] Record existence of plasmid: in spreadsheet, record date, plasmid name, minipreps that sequenced correctly, miniprep chosen, glycerol stocks that exist and in which strains and in which box/location.
 
 ---
 
@@ -66,7 +69,7 @@ Thermocycler notes: from experience, holding at 10 oC is better than 4 oC as som
 
 Protocol:
 
-To the 20  ul remaining, add 1 ul DpnI, vortex to mix, spin reaction down in microfuge. Protocol in thermocycler can be copied from mine: 37 oC 45 min for the DpnI reaction, 80 oC 20 min to inactivate the enzyme, hold at 10 oC.
+To the 20 ul remaining, add 1 ul DpnI, vortex to mix, spin reaction down in microfuge. Protocol in thermocycler can be copied from mine: 37 oC 45 min for the DpnI reaction, 80 oC 20 min to inactivate the enzyme, hold at 10 oC.
 
 Information:
 
