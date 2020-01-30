@@ -7,7 +7,7 @@ Eszter Csibra
 ---
 
 ### Type IIS
-_From 2014-2016._
+_From 2014-2016. Some updates in 2020._
 
 ---
 
@@ -118,6 +118,7 @@ Basic reaction:
 * _ µl Vector DNA [#]
 * _ µl Insert DNA [#]
 * 1 µl 10X T4 ligase buffer
+* 1 ul T4 ligase
 * to 10 µl w mQ H2O.
 * Incubate: 10’ at RT. [ie. can move onto transformation very quickly.]
 * Alternative is 16oC overnight.
