@@ -3,7 +3,6 @@
 .Rhistory
 
 # images
-*.png
 *.svg
 *.pdf
 *.tiff
