@@ -1,17 +1,8 @@
----
-title: "Electrocompetent cells"
-author: Eszter Csibra
-output: 
-  html_document:
-    theme: paper
----
+# Electrocompetent cells
+
+_Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
 
 **Background**: Cells are grown to early log phase and harvested in this state to allow optimal recovery (expression of resistance gene(s)) before plating. The OD at harvest and the concentration of the aliquots are the key factors for efficiency. The entire protocol post-cell growth is simply a way to remove as much of the salt in the media as possible.
-
----
-
-### Electrocompetent E. coli
-_Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
 
 ---
 
@@ -29,13 +20,13 @@ _Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
 
 **Media**
 
-* morning (or earlier): make up [400 ml *] [LB] directly into a large conical flask and take for autoclaving
+* morning (or earlier): make up (eg.) 400 ml(#) of LB directly into a large conical flask and take for autoclaving
     * Scale: if doing this for the first time, start with 200 ml.
     * Media. We used to use 2TY as standard at UCL. Here everyone uses LB-miller, so I’ve switched to that.
     * Reason: this is much cleaner than aliquoting 400 ml from a beaker of sterile LB.
     * NB. Might have some ready made on top shelf above my bench. Feel free to use. Wipe around outside with 70% ethanol as it’s dusty on that shelf.
 
-* (*) __Consider Scale of Culture:__
+* (#) __Consider Scale of Culture:__
     * 200 mL culture --> 40 aliquots
     * 400 ml --> 80
     * 800 ml --> 160
@@ -87,9 +78,9 @@ Harvest cells by centrifugation for 10 minutes at 4000 RPM (~935 g) at 4 oC.
 
 Discard supernatant and resuspend cells in 1 mM HEPES. Add 5 mL of buffer to the cell pellet, leaving it on ice for 10 minutes before trying to resuspend the cells. The cells will be quite difficult to resuspend at this point but need to be resuspended as gently as possible (as lack of salt in the solution with steadly weaken cell wall) - best way is to flick with the palm of your hand.
 
-Once resuspended, top up the buffer to 50 mL (*see below) and centrifuge (same conditions as before). Repeat the washing procedure two more times (i.e. discard supernatant and resuspend cells in fresh buffer).
+Once resuspended, top up the buffer to 50 mL (# see below) and centrifuge (same conditions as before). Repeat the washing procedure two more times (i.e. discard supernatant and resuspend cells in fresh buffer).
 
-(*)After each wash, you can start pooling cell fractions so that you go from 4 to 2 to 1 tube of cells. ie. You need to do 3 washes. The first spin is not a wash, so:
+(#) After each wash, you can start pooling cell fractions so that you go from 4 to 2 to 1 tube of cells. ie. You need to do 3 washes. The first spin is not a wash, so:
 
 * grow cells (200ml) - 4 x 50 ml falcons. spin.
 * resuspend in 5 ml. merge tubes 1+2 to make 10 ml, and add 40 ml HEPES. merge tubes 3+4 and add 40 ml HEPES. this is wash1. spin.
@@ -126,6 +117,8 @@ Electroporation protocol:
 Check transformations worked.
 
 Calculation of transformation efficiency in colony forming units (cfu) per ug DNA.
+
+Best practice is to use the same plasmid for each of these tests so you can compare between batches, eg pUC19 or pBAD-GFP.
 
 * Count colonies on plate or approximate.
 * eg. if you used above protocol and plated 50ul
