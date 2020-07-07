@@ -2,7 +2,7 @@
 
 _Created in 2017. Will be updated/overhauled over the coming months._
 
-Here are a list of online resources (or lab ones) that should help you find information about sequences / molecular biology questions or basic protocols, and to help you troubleshoot your own experiments. Generally, resources are free and online. This list isn’t meant to be exhaustive, it is mainly to get you started.
+Here are a list of online resources that should help you find information about DNA part sequences, molecular biology questions or basic protocols for handling DNA/RNA/proteins and _E. coli_, and to help you to begin to troubleshoot your own experiments. Most resources are freely available. Note that this list isn’t meant to be exhaustive, it is mainly to get you started.
 
 ---
 
