@@ -9,8 +9,7 @@ _Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
 ##### Starting materials:
 
 1. overnight E. coli culture.
-2. 1 mM HEPES buffer pH 7.0 (filter-sterilised, ice cold)
-    1. Small bottle in bottom of fridge. Only open by a flame to keep it sterile.
+2. 1 M HEPES buffer pH 7.0 (commercial)
 
 ---
 
@@ -22,9 +21,8 @@ _Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
 
 * morning (or earlier): make up (eg.) 400 ml(#) of LB directly into a large conical flask and take for autoclaving
     * Scale: if doing this for the first time, start with 200 ml.
-    * Media. We used to use 2TY as standard at UCL. Here everyone uses LB-miller, so I’ve switched to that.
+    * Media. I've used 2TY and LB-Miller. It shouldn't matter too much unless the cells are fussy.
     * Reason: this is much cleaner than aliquoting 400 ml from a beaker of sterile LB.
-    * NB. Might have some ready made on top shelf above my bench. Feel free to use. Wipe around outside with 70% ethanol as it’s dusty on that shelf.
 
 * (#) __Consider Scale of Culture:__
     * 200 mL culture --> 40 aliquots
@@ -32,12 +30,12 @@ _Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
     * 800 ml --> 160
     * [These are overestimates.]
     * 200 ml will --> 1.5 ml final pellet volume = 50 µl x 30 aliquots max, by calculation, let alone in practice.
-    * Although if you use 40% glycerol, you end up diluting this to 3 ml, which gives you 60 aliquots with slightly less cells in each.
+    * Although if you use 40% glycerol, you end up diluting this to 3 ml, which gives you 60 aliquots with slightly fewer cells in each.
 
 **Buffer**
 
 * more prep: 1 mM HEPES
-    * Take a 500 ml filter sterilising plastic bottle. Add 500 ml deionised water to top compartment. Under flame, add 500 ul of 1 M HEPES from fridge also to top compartment. Filter the 500 ml (TE lab has vacuum) and once done, give it a good shake to mix in the HEPES. Store in fridge and only open under flame.
+    * Take a 500 ml filter sterilising plastic bottle. Add 500 ml deionised water to top compartment. Under flame, add 500 ul of 1 M HEPES. Filter the 500 ml (B609 has vacuum) and once done, give it a good shake to mix in the HEPES. Store in fridge and only open under flame.
     
 **Cells**
 
@@ -51,7 +49,7 @@ _Eszter. Adapted from UCL protocols. Rewritten 2019 March, 2019 Sept._
 Start a fresh (< 3% inoculum v/v if applicable, I do 1%) well aerated (>=250 RPM) culture (culture volume =< 20% of flask volume to ensure good aeration) at 30 oC. Monitor bacterial growth at OD600 until it reaches 0.4 ~ 0.5.
 
 * 30 oC recommended as cells grow slower and it’s less likely that you will “miss” the 0.4-0.5 window.
-* The time it takes to reach it varies dependent on strain. Start measuring at 1h (stop culture, carefully under flame take 1ml -> cuvette and measure in Heap lab cuvette reader), and continue until you find the 0.4-0.5 window.
+* The time it takes to reach it varies dependent on strain. Start measuring at 1h (stop culture, carefully under flame take 1ml -> cuvette and measure in spectrophotometer in B606), and continue until you find the 0.4-0.5 window.
 * This is probably the most important factor in efficiency - where you stop the culture.
 * If you’ve gone above 0.6, you will get low efficiency. It’s not good enough just to dilute it to 0.4 becuase the cells are too far into log phase. You need to dilute to 0.1 and then grow it again until 0.4. Or just start again.
 
@@ -64,7 +62,7 @@ While you wait:
 * find 2 ice boxes - 1 for HEPES, other for cells.
 * take 1 mM filtered HEPES from fridge, into box1, surround with ice.
 * take 50 ml falcon tubes, label with cell strain and stick them in box2 to pre-cool them.
-* pre-chill the big centrifuge to 4oC!
+* pre-chill the centrifuge to 4oC!
 
 **Remove Media**
 
@@ -87,8 +85,7 @@ Once resuspended, top up the buffer to 50 mL (# see below) and centrifuge (same 
 * resuspend in 5 ml. merge tubes 1+3 to make 10 ml, and add 40 ml HEPES. this is wash2. spin.
 * resuspend in 5 ml. add 45 ml HEPES. this is wash3. spin.
 
-The cells will become easier to resuspend after each wash. After the cells have been
-washed 3 times, resuspend the cell pellet in 1000 uL (flicking usually works, or very gentle vortex (strength 3 of 6). Pipetting can be harsh on cells due to shearing forces.
+The cells will become easier to resuspend after each wash. After the cells have been washed 3 times, resuspend the cell pellet in 1000 uL (flicking usually works, or very gentle vortex (strength 3 of 6). Pipetting can be harsh on cells due to shearing forces.
 
 **Add glycerol, aliquot and freeze**
 
