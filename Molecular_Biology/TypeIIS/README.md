@@ -15,39 +15,43 @@ _From 2014-2016. Some updates in 2020._
 
 Vector
 
-- [] Inverse PCR (iPCR) of **VECTOR** w [**primers**]  (#)
+- [ ] Inverse PCR (iPCR) of **VECTOR** w [**primers**]  (#)
 - Tm = **XX**; elongation = **XX**
-- [] Check 5 µl of on gel
-- [] DpnI digest of rest
-- [] PCR purify
-- [] Digest w [**Type IIs enzyme**]
-- [] PCR purify
+- [ ] Check 5 µl of on gel
+- [ ] DpnI digest of rest
+- [ ] PCR purify
+- [ ] Digest w [**Type IIs enzyme**]
+- [ ] PCR purify
 
 Insert
 
-- [] PCR of **INSERT** w [**primers**]  (#)
+- [ ] PCR of **INSERT** w [**primers**]  (#)
 - Tm = **XX**; elongation = **XX**
-- [] Check 5 µl of on gel
-- [] DpnI digest of rest
-- [] PCR purify
-- [] Digest w [**Type IIs enzyme**]
-- [] PCR purify
+- [ ] Check 5 µl of on gel
+- [ ] DpnI digest of rest
+- [ ] PCR purify
+- [ ] Digest w [**Type IIs enzyme**]
+- [ ] PCR purify
 
 Assembly
 
-- [] Ligate
-- [] Transform into 10beta cells.
-- [] Check colonies possess correct plasmid. EITHER (A) or (B): A. Colony PCR w [**primers**] B. see after Minipreps.
-- [] Minipreps
-- [] Check colonies if not done A above. B. Digest w [**enzyme**] that will give you unique restriction pattern for cloned plasmid (that’s different from input vector). Chosen enzyme —> [**Expected results.**]
-- [] Sequence w [**sequencing primers**] over any ligation sites.
+- [ ] Ligate
+- [ ] Transform into 10beta cells.
+- [ ] Check colonies possess correct plasmid. EITHER (A) or (B): A. Colony PCR w [**primers**] B. see after Minipreps.
+- [ ] Minipreps
+- [ ] Check colonies if not done A above. B. Digest w [**enzyme**] that will give you unique restriction pattern for cloned plasmid (that’s different from input vector). Chosen enzyme —> [**Expected results.**]
+- [ ] Sequence w [**sequencing primers**] over any ligation sites.
 
 Housekeeping
 
-- [] Analyse sequences - sort minipreps (which to keep/discard).
-- [] Make sure plasmid is in correct strain for expression (eg. transform into B strains if construct requires T7 polymerase for transcription).
-- [] Make glycerol stocks.
-- [] Record existence of plasmid: in spreadsheet, record date, plasmid name, minipreps that sequenced correctly, miniprep chosen, glycerol stocks that exist and in which strains and in which box/location.
+- [ ] Label master plates with correct clones by colPCR
+- [ ] Analyse sequences - sort minipreps (which to keep/discard).
+  - [ ] Record these (eg. m1-m4 correct, m5 contains frameshift mutation.)
+  - [ ] Discard all but one correct clone (eg. m1)
+- [ ] Make sure plasmid is in correct strain for expression (eg. transform into B strains if construct requires T7 polymerase for transcription).
+- [ ] Make glycerol stocks.
+- [ ] Record existence of plasmid: in spreadsheet, record date, plasmid name, minipreps that sequenced correctly, miniprep chosen, glycerol stocks that exist and in which strains and in which box/location.
+- [ ] Discard ligation plates, master plates.
 
 ---
 
@@ -165,4 +169,3 @@ Set up Taq PCRs (high fidelity/speed is not paramount here). See https://ec363.s
 6. Next day: mark up master plate to show which are good/bad. Grow up 2x good ones for miniprep and sequencing.
 
 
----
