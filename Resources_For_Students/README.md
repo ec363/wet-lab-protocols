@@ -1,8 +1,8 @@
 # Resources for Students
 
-*Created in 2017. Last updated 2022.*
+*Created in 2017. Last updated 2023.*
 
-Here are a list of online resources that should help you find information about DNA part sequences, molecular biology questions or basic protocols for handling DNA/RNA/proteins and *E. coli*, and to help you to begin to troubleshoot your own experiments. Most resources are freely available. Note that this list isn't meant to be exhaustive, it is mainly to get you started.
+Here are a list of online resources that should help you find information about DNA part sequences, molecular biology questions or basic protocols for handling DNA/RNA/proteins and _E. coli_, and to help you to begin to troubleshoot your own experiments. Most resources are freely available. Note that this list isn't meant to be exhaustive, it is mainly to get you started.
 
 ------------------------------------------------------------------------
 
@@ -23,23 +23,23 @@ Here are a list of online resources that should help you find information about 
     -   DNA modifications (IDT) <https://eu.idtdna.com/site/Catalog/Modifications/>
 -   Modified dNTPs (and similar) - <https://www.jenabioscience.com/nucleotides-nucleosides/nucleotides-by-structure>
 -   Amino acids (abbreviations and properties) - <https://en.wikipedia.org/wiki/Proteinogenic_amino_acid#Chemical_properties>
--   Codon Table - <https://en.wikipedia.org/wiki/DNA_codon_table> .
+-   Codon Table - <https://en.wikipedia.org/wiki/DNA_codon_table>
 
 **Codon usage tables**
 
--   *E. coli* and others
+-   _E. coli_ and others
     -   K-12 <http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=83333>
     -   B <http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=413997>
     -   W3310 <http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=316407>
-    -   all E. coli <http://www.kazusa.or.jp/codon/cgi-bin/spsearch.cgi?species=escherichia+coli&c=i>
+    -   all _E. coli_ <http://www.kazusa.or.jp/codon/cgi-bin/spsearch.cgi?species=escherichia+coli&c=i>
     -   K-12 <http://openwetware.org/wiki/Escherichia_coli/Codon_usage>
-    -   unspecified strain of E coli: <https://www.genscript.com/tools/codon-frequency-table>
+    -   unspecified strain of _E. coli_: <https://www.genscript.com/tools/codon-frequency-table>
 -   Rare codon analysis tool- <https://www.genscript.com/tools/rare-codon-analysis>
 
 **Tools**
 
 -   Clustal Omega, DNA/RNA/Protein alignment <http://www.ebi.ac.uk/Tools/msa/clustalo/>
--   Blast, sequence search in databases <http://blast.ncbi.nlm.nih.gov/Blast.cgi>?
+-   Blast, sequence search in databases <http://blast.ncbi.nlm.nih.gov/Blast.cgi>
 -   Back-translation <http://www.ebi.ac.uk/Tools/st/>
 
 ------------------------------------------------------------------------
@@ -48,7 +48,7 @@ Here are a list of online resources that should help you find information about 
 
 **Buffers**
 
--   Buffer for biochemical reactions -
+-   Buffers for biochemical reactions -
     -   <https://www.promega.co.uk/resources/product-guides-and-selectors/protocols-and-applications-guide/buffers-for-biochemical-reactions/>
     -   <http://www.sigmaaldrich.com/life-science/core-bioreagents/biological-buffers/learning-center/buffer-reference-center.html>
     -   <http://www.sigmaaldrich.com/life-science/core-bioreagents/biological-buffers/learning-center/buffer-calculator.html>
@@ -56,14 +56,17 @@ Here are a list of online resources that should help you find information about 
 **Protocol databases**
 
 -   Addgene protocols (molbio and cloning) - <https://www.addgene.org/protocols/>
--   Protocols.io- <https://www.protocols.io/>
+-   Addgene guides - <https://www.addgene.org/guides/>
+-   Addgene ebooks - <https://www.addgene.org/educational-resources/ebooks/>
+-   Addgene Plasmids 101 blog - <https://blog.addgene.org/topic/plasmids-101>
+-   Protocols.io - <https://www.protocols.io/>
 -   CSHL Protocols (mainly molbio) - <http://cshprotocols.cshlp.org/site/misc/subject.xhtml>
--   OpenWetWare- <http://openwetware.org/wiki/Protocols>
+-   OpenWetWare - <http://openwetware.org/wiki/Protocols>
 -   Barrick Lab protocols (microbiology) - <https://barricklab.org/twiki/bin/view/Lab/ProtocolList>
 
 **Protocol FAQs**
 
--   <https://www.researchgate.net/topics> - Join to let you browse Q&As better.
+-   ResearchGate Forum (Sign up to let you browse Q&As better) - <https://www.researchgate.net/topics>
 
 ------------------------------------------------------------------------
 
@@ -71,6 +74,7 @@ Here are a list of online resources that should help you find information about 
 
 -   Introduction to recombinant DNA technology by Addgene <https://www.addgene.org/mol-bio-reference/>
 -   Enzymes used in molecular biology: a useful guide <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2570007/>
+-   Why Johnny can't clone: Common pitfalls and not so common solutions <https://www.future-science.com/doi/10.2144/000114324>
 
 ------------------------------------------------------------------------
 
@@ -147,9 +151,9 @@ Plasmid parts: The construct
 -   Synonymise- small R tool I wrote to randomise codons where repetitive codon usage was not desired- <https://github.com/ec363/synonymise>
 -   DNA Chisel- Python tool for avoiding homologies, tuning GC content, codon optimisation- <https://github.com/Edinburgh-Genome-Foundry/DnaChisel>
 
-**E coli strains:**
+**_E. coli_ strains:**
 
--   E coli strains for cloning: <https://www.addgene.org/mol-bio-reference/#strains>
+-   _E. coli_ strains for cloning: <https://www.addgene.org/mol-bio-reference/#strains>
 -   NEB 10beta- <https://www.neb.com/products/c3020-neb-10-beta-electrocompetent-e-coli>
 -   NEB T7 express lysY/lacIq- <https://www.neb.com/products/c3013-t7-express-lysyiq-competent-e-coli-high-efficiency>
 -   BL21(DE3)- <https://www.neb.com/products/c2527-bl21de3-competent-e-coli>
@@ -158,7 +162,7 @@ Plasmid parts: The construct
 
 ------------------------------------------------------------------------
 
-### CLONING - In practice
+### CLONING - In Practice
 
 **General cloning protocols:**
 
@@ -210,16 +214,17 @@ More information:
 -   Commandments of experimental microbiology (Barrick) <https://barricklab.org/twiki/bin/view/Lab/StandardMicrobiologicalPractices>
 -   OD600 calculator <http://www.genomics.agilent.com/biocalculators/calcODBacterial.jsp>
 
-**E coli strains/genotypes:**
+**_E. coli_ strains/genotypes:**
 
--   List of strain genotypes and what the genotypes mean <http://openwetware.org/wiki/Escherichia_coli/Nomenclature_%26_Abbreviations>
--   List of E coli strains, but no links: <http://www.uniprot.org/taxonomy/83333>
+-   List of strain genotypes <https://openwetware.org/wiki/E._coli_genotypes>
+-   What the genotypes mean <http://openwetware.org/wiki/Escherichia_coli/Nomenclature_%26_Abbreviations>
+-   List of _E. coli_ strains, but no links: <http://www.uniprot.org/taxonomy/83333>
 
-**E coli genome/genes:**
+**_E. coli_ genome/genes:**
 
 -   EcoGene (when it was live it was great) <http://www.ecogene.org/>
 
-**E coli general:**
+**_E. coli_ general:**
 
 -   openwetware (protocols): <http://openwetware.org/wiki/Escherichia_coli>
 -   wiki: <http://ecoliwiki.net/colipedia/index.php/Welcome_to_EcoliWiki>
@@ -234,11 +239,11 @@ More information:
         -   <https://www.ncbi.nlm.nih.gov/nuccore/NC_012971>
 -   EcoCyc: <http://ecocyc.org/>
     -   literature-based curation of the K12-MG1655 genome
--   Characteristics of the E. coli genome (Barrick) <https://barricklab.org/twiki/bin/view/Lab/ReferenceEColiGenome>
+-   Characteristics of the _E. coli_ genome (Barrick) <https://barricklab.org/twiki/bin/view/Lab/ReferenceEColiGenome>
 
 ------------------------------------------------------------------------
 
-### PROTEIN EXPRESSION (E coli)
+### PROTEIN EXPRESSION (_E. coli_)
 
 Optimisation (maximisation):
 
@@ -260,8 +265,8 @@ Troubleshooting:
 Cell lysis and clarification:
 
 -   EMBL <https://www.embl.de/pepcore/pepcore_services/protein_purification/extraction_clarification/index.html>
--   EMBL - E coli lysis w sonication <https://www.embl.de/pepcore/pepcore_services/protein_purification/extraction_clarification/cell_lysates_ecoli/sonication/index.html>
--   EMBL - E coli lysis w lysozyme <https://www.embl.de/pepcore/pepcore_services/protein_purification/extraction_clarification/cell_lysates_ecoli/enzymatic_lysis/index.html>
+-   EMBL - _E. coli_ lysis w sonication <https://www.embl.de/pepcore/pepcore_services/protein_purification/extraction_clarification/cell_lysates_ecoli/sonication/index.html>
+-   EMBL - _E. coli_ lysis w lysozyme <https://www.embl.de/pepcore/pepcore_services/protein_purification/extraction_clarification/cell_lysates_ecoli/enzymatic_lysis/index.html>
 -   Wolfson centre protocols <http://wolfson.huji.ac.il/purification/Purification_Protocols.html>
 
 Purification techniques:
@@ -308,16 +313,55 @@ Storage:
 
 ------------------------------------------------------------------------
 
+### BIOCHEMISTRY/CHEMISTRY
+
+-   Protein-Ligand binding: online simulation of the fraction of protein molecules in ligand-bound state as a function of binding affinity, protein concentration, and ligand concentration <https://binding.streamlit.app>
+-   SMILES (chemistry notation) generator <https://www.cheminfo.org/flavor/malaria/Utilities/SMILES_generator___checker/index.html>
+-   Small molecule permeability in Gram negative bacteria <http://www.entry-way.org/pages/about>
+
+------------------------------------------------------------------------
+
+### FLUORESCENT PROTEINS
+
+-   FPbase: database of fluorescent proteins <https://www.fpbase.org>
+
+------------------------------------------------------------------------
+
 ### EXPERIMENTAL DESIGN
 
--   Intro to experimental design (Barrick) <https://barricklab.org/twiki/bin/view/Lab/IntroductionToExperimentalDesign>
--   How to prepare figures (not a bad set of guidelines) <https://barricklab.org/twiki/bin/view/Lab/ProtocolsGraphGuide>
+-   Introduction to experimental design (Barrick) <https://barricklab.org/twiki/bin/view/Lab/IntroductionToExperimentalDesign>
 
 ------------------------------------------------------------------------
 
 ### ANALYSIS
 
--   FPCountR - our R package for the conversion of fluorescence measurements from microplate reader data from 'arbitrary units' to absolute units (ie. molecules of fluorescent protein), and the analysis of timecourse E. coli data from fluorescence/OD to molecules/cell or molar concentration.
-    -   Preprint <https://www.biorxiv.org/content/10.1101/2021.12.06.471413v1>
-    -   Code <https://github.com/ec363/fpcountr>
-    -   Wet lab protocol for calibration dx.doi.org/10.17504/protocols.io.bzudp6s6
+-   R. Recommended over Excel for data analysis and presentation. A guide to downloading R/RStudio and getting started using R is provided on the Coding Resources page: <https://github.com/ec363/coding_resources>
+-   GitHub. Again, see the Coding Resources page: <https://github.com/ec363/coding_resources>
+
+-   Paper on Tidy Data (Wickham, 2014) <https://www.jstatsoft.org/article/view/v059i10>
+-   **Parsley**: Our web application for parsing data from exported format data from plate readers. Parsing = data extraction + data tidying + metadata joining. App and guide are here: <https://gbstan.shinyapps.io/parsleyapp/> and preprint is here <https://zenodo.org/record/8072500>.
+
+-   **FPCountR**: Our R package for the conversion of fluorescence measurements from microplate reader data from 'arbitrary units' to absolute units (ie. molecules of fluorescent protein), and the analysis of timecourse _E. coli_ data from 'fluorescence/OD' to 'molecules/cell or molar concentration'.
+    -   Paper: [Csibra and Stan, 2022. Absolute protein quantification using fluorescence measurements with FPCountR. _Nat Comms_](https://www.nature.com/articles/s41467-022-34232-6)
+    -   Code: [FPCountR: FPCountR: Fluorescent protein calibration for plate readers](https://github.com/ec363/fpcountr)
+    -   Wet lab protocol: [FPCount protocol - in-lysate (purification free) protocol V.2](https://www.protocols.io/view/fpcount-protocol-in-lysate-purification-free-proto-dm6gpw43plzp/v2)
+
+-   Growth curve analysis with R. <https://github.com/sprouffske/growthcurver>
+
+-   Image analysis with ImageJ <https://imagej.net>
+
+------------------------------------------------------------------------
+
+### FIGURES
+
+-   How to prepare figures (not a bad set of guidelines) <https://barricklab.org/twiki/bin/view/Lab/ProtocolsGraphGuide>
+
+**Photos and Diagrams:**
+
+-   Unsplash (free) - source of free stock photos that work well for presentations. <https://unsplash.com/>
+-   Biorender (£££) - scientific illustration application in the browser. expensive but excellent. <https://app.biorender.com/>
+
+**Data visualisation:**
+
+-   [Claus O. Wilke, Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
