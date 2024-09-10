@@ -8,22 +8,25 @@ M9 media is a well defined media for microbial assays in synthetic biology, in w
 
 #### Recipe
 
-Make up stock solutions and sterilise and store as indicated. ('FSd' stands for filter sterilised. RT = room temp.) 
+Make up stock solutions and sterilise and store as indicated.
+
+| Stock                        | How to make and store stock                                                           | For 250ml | For 500ml |     Final |
+|:---------------------------------|:--------------------------------------------------------------------------------------|----------:|----------:|----------:|
+| mQ water                         | Autoclaved, RT^1^                                                                       | 173.75 ml |  347.5 ml |           |
+| M9 5X salts                      | Autoclaved, RT                                                                       |     50 ml |    100 ml |        1X |
+| Casamino acids 10%               | Autoclaved, RT (Make up 50ml at a time, stable for months.)                          |      5 ml |     10 ml |      0.2% |
+| Fructose, 20%                    | FSd^2^, fridge (Make up 50ml at a time, stable for weeks.)                               |     10 ml |     20 ml |      0.8% |
+| Thiamine hydrochloride (10mg/ml) | FSd, RT, cover in foil (light sensitive) (Make up 50ml at a time, stable for months.) |   6.25 ml |   12.5 ml | 0.25mg/ml |
+| MgSO4 0.1M                       | FSd, RT (Make up 50ml at a time, stable for months.)                                  |      5 ml |     10 ml |      2 mM |
+| CaCl2 0.1M                       | FSd, RT (Make up 50ml at a time, my latest lasted several years.)                     |    250 µl |   500 µl  |     100uM |
+
+^1^ RT = room temperature  
+^2^ FSd = filter sterilised  
 
 Notes:
 
 - Standard recipe here uses 0.8% fructose – this can be titrated or replaced with other carbon sources.
 - Thiamine is an additive specifically required by DH10B cells, and may not be required for other strains.
-
-|                                  | How to make and store stock                                                           | For 250ml | For 500ml |     Final |
-|----------------------------------|---------------------------------------------------------------------------------------|----------:|----------:|----------:|
-| mQ water                         | Autoclaved, RT                                                                        | 173.75 ml |  347.5 ml |           |
-| M9 5X salts                      | Autoclaved,  RT                                                                       |     50 ml |    100 ml |        1X |
-| Casamino acids 10%               | Autoclaved,  RT (Make up 50ml at a time, stable for months.)                          |      5 ml |     10 ml |      0.2% |
-| Fructose, 20%                    | FSd, fridge (Make up 50ml at a time, stable for weeks.)                               |     10 ml |     20 ml |      0.8% |
-| Thiamine hydrochloride (10mg/ml) | FSd, RT, cover in foil (light sensitive) (Make up 50ml at a time, stable for months.) |   6.25 ml |   12.5 ml | 0.25mg/ml |
-| MgSO4 0.1M                       | FSd, RT (Make up 50ml at a time, stable for months.)                                  |      5 ml |     10 ml |      2 mM |
-| CaCl2 0.1M                       | FSd, RT (Make up 50ml at a time, my latest lasted several years.)                     |    250 µl |   500 µl  |     100uM |
 
 #### Protocol
 
